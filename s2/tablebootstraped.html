@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+    Listes et tableaux
+</title>
+<style>
+    td
+    {
+        text-align: center;
+    }
+</style>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <p>
+        <div class="container">
+            <div class="row">
+              <div class="col">
+              </div>
+              <div class="col">
+                  <form>
+                <div class="bigtitle"><h1>formulaire en HTML</h1></div>
+                <label>ID</label><br>
+                <input class="form-control" type="text" id="identifiant" name="id"><br>
+                
+                <label>Nom</label><br>
+                <input  class="form-control" type="text" id="nom" name="nom"><br>
+                <label>Prenom</label><br>
+                <input  class="form-control" type="text" id="prenom" name="prenom"><br>
+                <label>Formation</label><br>
+                <select  class="form-control"><option>Web</option><option>JAVA</option><option>Python</option></select><br>
+                <label>Niveau</label><br>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" id="n" name="nv">Expert </div><div class="form-check"><input class="form-check-input" type="radio" id="n" name="nv">Débutant </div>
+                <input class="btn btn-primary" type="submit"><br>
+            </form>
+                
+              </div>
+              <div class="col">
+              </div>
+            </div>
+          </div>
+        
+    </p>
+    <div class="bigtitle"><h1>Les Tableau en HTML</h1></div>
+    <p>
+        <table class="table table-hover table-bordered">
+            <tr><td rowspan="9"><h2>Formation Web 2.0</h2></td></tr>
+            <tr><td colspan="3"><h2>Liste des inscription</h2></td></tr>
+            <tr><th>ID</th><th>Nom</th><th>Prenom</th></tr>
+            <tr><td>1</td><td>Mahjoubi</td><td>Kamel</td></tr>
+            <tr><td>2</td><td>Hamrouni</td><td>Mohamed</td></tr>
+            <tr><td>3</td><td>Thabbessi</td><td>Mohamed Ali</td></tr>
+            <tr><td>4</td><td>Abdi</td><td>Abderraouf</td></tr>
+            <tr><td>5</td><td>Ayed</td><td>Sadok</td></tr>
+            <tr><td>6</td><td>Souilah</td><td>Marwa</td></tr>
+        </table>
+    </p>
+</body>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</html>
