@@ -1,0 +1,36 @@
+.headbar
+{
+    background-color: #5c51c4;
+    height: 100px;
+    width: 100%;
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.leftbar
+{
+    height: 860px;
+    float: left;
+    width: 15%;
+    color: #fff;
+    font-weight: bold;
+
+    background-color: #275a4c;
+}
+.content
+{
+    height: 860px;
+    float: left;
+    width: 70%;
+    font-size: 12px;
+    background-color: #fff;
+}
+.rightbar
+{
+    height: 860px;
+    float: right;
+    width: 15%;
+    background-color: #40a9c4;
+}
