@@ -32,7 +32,7 @@
         </div>
         <div class="mb-3">
           <label class="form-label">Téléphone</label>
-          <input type="text" name="tel" required class="form-control">
+          <input type="text" pattern="^[0-9][0-9 +]{8,17}" name="tel" required class="form-control">
         </div>
         <div class="mb-3">
           <label class="form-label">recrutement</label>
@@ -49,7 +49,7 @@
          <div class="mb-3">
           <div class="mb-3">
             <label class="form-label">Adresse</label>
-            <textarea class="form-control" name="adresse"></textarea>
+            <textarea pattern="[A-Za-z 0-9]{5,}" class="form-control" name="adresse"></textarea>
           </div>
           <div class="mb-3">
             <label class="form-label">Grade</label>
