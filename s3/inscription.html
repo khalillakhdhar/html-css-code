@@ -20,11 +20,11 @@
          <h1>Inscription</h1>
          <div class="mb-3">
            <label class="form-label">Nom</label>
-           <input type="text" name="nom" required class="form-control">
+           <input type="text" pattern="[A-Za-z ]{3,}" name="nom" required class="form-control">
          </div>
          <div class="mb-3">
           <label class="form-label">Prenom</label>
-          <input type="text" name="prenom" required class="form-control">
+          <input type="text" pattern="[A-Za-z ]{3,}"  name="prenom" required class="form-control">
         </div>
         <div class="mb-3">
           <label class="form-label">Age</label>
