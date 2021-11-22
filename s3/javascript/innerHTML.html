@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inner</title>
+</head>
+<body>
+    Nom:    <input type="text" name="myname" id="myname">
+
+    <p id="nom"></p>
+    <p id="prenom"></p>
+    <p id="age"></p>
+    <input type="text" onkeydown="showName()" name="salaire" id="salaire">
+    <button onclick="calcule()">Calculer la taxe</button>
+</body>
+<script>
+    var nom="Ali";
+    var prenom="Ahmed";
+    var age=31;
+    var email="test@gmail.com";
+    document.getElementById("nom").innerHTML=nom;
+    document.getElementById("prenom").innerHTML=prenom;
+    document.getElementById("age").innerHTML=age;
+    document.getElementsByName("email").value=email;
+    function calcule()
+    {
+        var s=document.getElementById("salaire").value;
+        var taxe=s*0.12;
+        alert("la taxe est de: "+taxe);
+
+    }
+    function showName()
+    {
+        console.log("worked");
+        var name=document.getElementById("myname").value;
+        console.log(name);
+        document.getElementById("nom").innerHTML=name;
+
+    }
+        </script>
+</html>

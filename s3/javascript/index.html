@@ -2,6 +2,26 @@
 <html lang="fr">
 <head>
     <script>
+        let a=1;
+        function increment()
+        {
+a++;
+console.log(a);
+document.getElementById('message').innerHTML=a;
+let valeur=document.getElementsByName("x");
+console.log(valeur);
+        }
+
+
+        console.log(typeof 42);
+// expected output: "number"
+console.log(typeof 'blubber');
+// expected output: "string"
+console.log(typeof true);
+// expected output: "boolean"
+var undeclaredVariable=0;
+console.log(typeof undeclaredVariable);
+// expected output: "undefined";
         //alert("bienvenu au javascript")
 /*
         let name="Ahmed";
@@ -17,7 +37,8 @@
 <body>
     
     <div id="message">Bonjour</div>
-    <button onclick="document.getElementById('message').innerHTML='Bienvenu '">click ici</button>
+    <input name="x" type="text" id="x">
+    <button onclick="increment()">click ici</button>
 </body>
 
 </html>
